@@ -27,3 +27,5 @@ python tests/test_smoke.py
 
 # Или запуск всех проверок
 ./run_tests.sh
+
+# Для Windows использовать run_tests.bat
