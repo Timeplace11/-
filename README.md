@@ -19,11 +19,11 @@
 # Установка зависимостей
 pip install -r requirements.txt
 
-# Запуск демо
-python poc/demo.py --image test_images/employee.jpg
+# Запуск PoC
+python poc/PoC.py
 
-# Запуск API-сервера
-python poc/api.py
+# Запуск smoke-тестов
+python tests/test_smoke.py
 
-# Тестирование
-python -m pytest tests/
+# Или запуск всех проверок
+./run_tests.sh
